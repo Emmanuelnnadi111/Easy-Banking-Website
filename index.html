@@ -22,7 +22,7 @@
   </style>
 </head>
 <body class="m-auto p-0 box-border font-Public-Sans text-sm">
-    <div class="container  mt-8">
+    <div class="container  mt-8 md:m-auto">
       <div class="nav-bar flex items-center justify-between  px-4 sm:max-w-screen-xl m-auto sm:bg-White">
           <img class="" src="./assets/images/logo.svg" alt="logo">
             <nav>
@@ -34,22 +34,22 @@
                 <li><a href="#">Careers</a></li>
               </ul>
             </nav>
-            <button class="hidden  px-10 p-4 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-White font-bold md:block items-center">
+            <button class="hidden  px-10 p-4 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-White font-bold md:block items-center ">
               Request Invite
             </button>
-            <img class="lg:hidden" src="./assets/images/icon-hamburger.svg" alt="open-button">
+            <img class="md:hidden" src="./assets/images/icon-hamburger.svg" alt="open-button">
             <img class="hidden" src="./assets/images/icon-close.svg" alt="close-button">
       </div>
       <!-- End of header-section -->
-      <div class="section-1 p-4 md:flex items-center sm:max-w-screen-xl m-auto ">
+      <div class="section-1 p-4 md:flex items-center md:justify-center sm:max-w-screen-xl m-auto ">
         <div class="section-1-image mt-4 bg-mobile-bg bg-no-repeat bg-cover sm:bg-desktop-bg top-96 sm:bg-clip-content ">
-          <img class="w-full" src="./assets/images/image-mockups.png" alt="image-mockups">
+          <img class="" src="./assets/images/image-mockups.png" alt="image-mockups">
         </div>
         <div class="section-1-article sm:-order-1 ">
-          <h1 class="text-center text-4xl font-Public-Sans text-darkBlue sm:text-left sm:text-7xl sm:w-[89%]">
+          <h1 class="text-center text-4xl font-Public-Sans text-darkBlue sm:text-left lg:text-7xl lg:w-[89%]">
             Next generation digital banking
           </h1>
-          <p class="text-center mt-10 text-grayishBlue px-4 text-sm sm:text-left sm:px-0  sm:w-4/5 sm:pr-60">Take your financial life online. Your Easy bank account will be a one-stop-shop for spending, saving, budgeting, investing and much more.</p>
+          <p class="text-center mt-10 text-grayishBlue px-4 text-sm sm:text-left sm:px-0  sm:w-4/5 sm:pr-60 md:pr-0">Take your financial life online. Your Easy bank account will be a one-stop-shop for spending, saving, budgeting, investing and much more.</p>
           <button class="text-center m-auto block mt-10 px-10 p-4 rounded-full bg-gradient-to-r from-limeGreen to-brightCyan text-White font-bold sm:float-left">
             Request Invite
           </button>
@@ -57,7 +57,7 @@
         
       </div>
       <!-- End of section-1 -->
-      <div class="wrap bg-lightGrayishBlue ">
+      <div class="wrap bg-lightGrayishBlue sm:p-4">
         <div class="section-2  sm:max-w-screen-xl m-auto ">
           <div class="article">
              <h1 class="text-5xl text-darkBlue text-center mt-10 pt-14 sm:text-left ">Why choose Easybank?</h1>
@@ -91,14 +91,14 @@
       <!-- End of section-2 -->
       <div class="section-3 px-5 sm:max-w-screen-xl m-auto">
         <h2 class="text-darkBlue text-center text-4xl mt-20 mb-10 sm:text-left">Latest Articles</h2>
-        <div class="latest-image sm:grid grid-cols-4 gap-6">
+        <div class="latest-image sm:grid grid-cols-4 md:gap-3 lg:gap-6">
           <div class="currency ">
             <img class="rounded-t-md" src="./assets/images/image-currency.jpg" alt="currency">
             <div class="wrap bg-White p-4">
               <figcaption class="text-xs text-grayishBlue ">
                 By Claire Robinson
               </figcaption>
-              <h2 class="text-darkBlue text-sm mt-2 pr-14">
+              <h2 class="text-darkBlue text-sm mt-2 pr-14 md:pr-0">
                 Receive money in any currency with no fees
               </h2>
               <p class="text-grayishBlue  mt-2">The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single...</p>
@@ -110,10 +110,10 @@
               <figcaption class="text-grayishBlue text-xs ">
                 By Wilson Hutton
               </figcaption>
-              <h2 class="text-darkBlue text-xs mt-2 sm:text-xl">
+              <h2 class="text-darkBlue text-xs mt-2 sm:text-xl md:text-xs">
                 Treat yourself without worrying about money
               </h2>
-              <p class="text-grayishBlue mt-2 pr-4">Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you...</p>
+              <p class="text-grayishBlue mt-2 pr-4 md:pr-0">Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you...</p>
             </div>
           </div>
           <div class="airplane">
@@ -122,22 +122,22 @@
               <figcaption class="text-grayishBlue text-xs font-thin pr-16  ">
                 By Wilsin Hutton
               </figcaption>
-              <h2 class="text-darkBlue text-xl mt-2">
+              <h2 class="text-darkBlue text-xl mt-2 md:text-xs">
                 Take your Easybank card wherever you go
               </h2>
-              <p class="text-grayishBlue pr-4 mt-2">We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you...</p>
+              <p class="text-grayishBlue pr-4 mt-2 md:pr-0">We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you...</p>
             </div>
           </div>
           <div class="confetti">
             <img class="rounded-t " src="./assets/images/image-confetti.jpg" alt="confetti">
             <div class="wrap p-4">
-              <figcaption class="text-grayishBlue text-xs">
+              <figcaption class="text-grayishBlue text-xs ">
                 By Claire Robinson
               </figcaption>
-              <h2 class="text-darkBlue text-xl">
+              <h2 class="text-darkBlue text-xl md:text-xs lg:text-xl">
                Our invite-only Beta account are now live!
               </h2>
-              <p class="text-grayishBlue mt-2">After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to requst an invite through the site...</p>
+              <p class="text-grayishBlue mt-2 ">After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to requst an invite through the site...</p>
             </div>
           </div>
         </div>
@@ -147,7 +147,7 @@
       <div class="footer bg-darkBlue  sm:max-w-screen-xl m-auto sm:grid grid-cols-4 items-center justify-center ">
         <div class="aside-1 m-auto ">
           <img class="m-auto mt-20 relative top-10 bg-White text-White sm:mt-0 sm:top-0" src="./assets/images/logo.svg" alt="logo">
-          <div class="icons flex items-center mt-20 justify-center gap-6 sm:gap-6">
+          <div class="icons flex items-center mt-20 justify-center gap-6 md:gap-3 lg:gap-6">
             <img src="./assets/images/icon-facebook.svg" alt="facebook-icon">
             <img src="./assets/images/icon-youtube.svg" alt="youtube-icon">
             <img src="./assets/images/icon-twitter.svg" alt="twitter-icon">
