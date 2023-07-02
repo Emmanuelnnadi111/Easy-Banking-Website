@@ -628,6 +628,10 @@ video {
   display: none;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -981,14 +985,6 @@ video {
 
   .md\:mt-10 {
     margin-top: 2.5rem;
-  }
-
-  .md\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .md\:mt-60 {
-    margin-top: 15rem;
   }
 
   .md\:block {
